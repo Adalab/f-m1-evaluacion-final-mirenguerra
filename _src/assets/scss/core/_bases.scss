@@ -14,6 +14,7 @@ ul {
 
 body{
     color: $color-blackCricket;
-    font-family: font-family-primary;
-    font-size: font-size-primary;
+    font-family: $font-family-primary;
+    font-size: $font-size-primary;
+    line-height: 30px;
 }

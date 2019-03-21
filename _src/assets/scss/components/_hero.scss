@@ -21,9 +21,15 @@
 
 .hero-title{
     font-size: $font-size-title;
+    font-weight: 400;   
+    // mirar peso de la fuente
     text-transform: uppercase;
+    line-height: 55px;
+    padding-bottom: 10px;
 }
 
 .hero-subtitle{
+    font-family: $font-family-primary;
     font-size: $font-size-secondary;
+
 }

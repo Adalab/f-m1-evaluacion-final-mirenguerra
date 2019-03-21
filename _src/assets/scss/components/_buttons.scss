@@ -1,12 +1,13 @@
-// .btn-menu-burguer{
-//     background-image:url(./assets/icons/ico-menu.svg);
-//     background-repeat:no-repeat;
-//     background-position:center;
-//     fill: $color-whiteSnow;
-//     height: 44px;
-//     width: 44px;
-//     position: absolute;
-//     top:0;
-//     left:0;
-//     z-index: 30;
-//   }
+.btn-menu-burguer{
+    background-color: $color-blueMed;
+    background-image: url(./assets/icons/ico-menu.svg);
+    background-repeat:no-repeat;
+    background-position:center;
+    fill: $color-whiteSnow;
+    height: 44px;
+    width: 44px;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 30;
+  }
