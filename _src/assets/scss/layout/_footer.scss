@@ -1,0 +1,44 @@
+.wrapper-footer{
+    background-color:$color-blueDark;
+    color:$color-whiteSnow;
+    font-family: $font-family-primary;
+    font-size: $font-size-secondary;
+    line-height: 30px;
+}
+.footer-menu{
+    text-align: center;
+}
+
+.footer-list:first-child{
+    padding:60px 0 30px;
+    
+}
+
+.footer-element{
+    
+}
+
+.footer-link{
+    color:inherit;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: $font-size-small;
+}
+
+.copy, .footer-claim{
+    font-size: $font-size-small;
+    text-align: center;
+    line-height: 30px;
+}
+
+.copy{
+    padding-top: 30px;
+}
+
+.footer-claim{
+    padding-bottom:45px;
+}
+
+.heart{
+    color: $color-orangeFruit;
+}

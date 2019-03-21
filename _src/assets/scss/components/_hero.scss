@@ -1,5 +1,6 @@
-.wrapper-hero, .cover-photo{
-    height: 100vh;
+.wrapper-hero{
+    // background-image: url(./images/cover.jpg);  poner la img como background
+    min-height: 100vh;
     position: relative;
 }
 
@@ -20,6 +21,7 @@
 
 .hero-title{
     font-size: $font-size-title;
+    text-transform: uppercase;
 }
 
 .hero-subtitle{
