@@ -1,0 +1,27 @@
+.wrapper-hero, .cover-photo{
+    height: 100vh;
+    position: relative;
+}
+
+// mejorar el centrado de la foto
+
+.align-titles{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title{
+    font-family: $font-family-secondary;
+    color: $color-whiteSnow;
+    text-align: center;
+}
+
+.hero-title{
+    font-size: $font-size-title;
+}
+
+.hero-subtitle{
+    font-size: $font-size-secondary;
+}

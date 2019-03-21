@@ -2,7 +2,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    border: 1px solid green;
+    // border: 1px solid green;
+    overflow-x: hidden;
 }
 
 ul {
@@ -12,5 +13,5 @@ ul {
 }
 
 body{
-    
+
 }
