@@ -1,11 +1,10 @@
-.btn-menu-burguer{
+.burguer-btn{
+    height: 44px;
+    width: 44px;
     background-color: $color-blueMed;
     background-image: url(./assets/icons/ico-menu.svg);
     background-repeat:no-repeat;
     background-position:center;
-    fill: $color-whiteSnow;
-    height: 44px;
-    width: 44px;
     position: absolute;
     top:0;
     left:0;
@@ -19,7 +18,7 @@
     border: 2px solid $color-orangeFruit;
     border-radius: 25px;
     color: $color-orangeFruit;
-    padding: 0px 25px;
+    background-position:center;
     text-align: center;
     text-decoration: none;
     display: inline-block;
