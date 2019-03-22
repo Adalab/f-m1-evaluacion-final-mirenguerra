@@ -23,4 +23,27 @@
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
+      &__link{
+       text-decoration: none;
+       color: inherit;
+     }
   }
+
+  .moreReasons-btn {
+    width: 184px;
+    height: 45px;
+    background-color: $color-orangeFruit;
+    border: 2px solid $color-orangeFruit;
+    border-radius: 25px;
+    color: $color-whiteSnow;
+    font-weight: 700;
+    background-position:center;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+      &__link{
+       text-decoration: none;
+       color: inherit;
+     }
+  } 
