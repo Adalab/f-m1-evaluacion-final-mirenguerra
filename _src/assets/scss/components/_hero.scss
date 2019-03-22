@@ -1,10 +1,11 @@
 .wrapper-hero{
-    // background-image: url(./images/cover.jpg);  poner la img como background
+    background-image: url('../images/cover.jpg');
+    background-position: 50% 50%;
     min-height: 100vh;
+    width: 100%;
+    margin: 0 auto;
     position: relative;
 }
-
-// mejorar el centrado de la foto
 
 .align-titles{
     position: absolute;
