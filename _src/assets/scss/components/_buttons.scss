@@ -31,7 +31,7 @@
           animation-iteration-count: infinite;
         }     
 }
-  @keyframes arrowDown {
+@keyframes arrowDown {
     from {
         transform: translate(-50%) scale(1);
     }
@@ -48,10 +48,22 @@
   background-image:url('../images/ico-arrow.svg');
   background-position: center;
   background-repeat: no-repeat;
-  position: absolute;
+  position: relative;
   top: -22.5px;
   left: 50%;
-  transform: translate(-50%);   
+  transform: translate(-50%);
+  animation-name: intro;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;  
+}
+
+@keyframes intro {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }   
 }
 
 .go-btn {
