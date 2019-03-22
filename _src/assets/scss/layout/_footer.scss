@@ -4,15 +4,34 @@
     font-family: $font-family-primary;
     font-size: $font-size-secondary;
     position: relative;
+    
+    // @media all and (min-width:678px){
+    //     display:flex;
+    //     justify-content: space-around;
+    //     padding: 45px 39px;
+    // }
 }
 
 .footer-menu{
     text-align: center;
+    @media all and (min-width:678px){
+        display:flex;
+        justify-content: space-around;
+        order:2;   
+    }
+}
+
+.footer-list{
+    @media all and (min-width:678px){
+        
+    }
 }
 
 .footer-list:first-child{
-    padding:60px 0 30px;
-    
+    padding:60px 0 30px;  
+    @media all and (min-width:678px){
+        padding: 0;        
+    }
 }
 
 .footer-link{
@@ -20,11 +39,18 @@
     text-decoration: none;
     text-transform: uppercase;
     font-size: $font-size-small;
+    @media all and (min-width:678px){
+        
+    }
 }
 
 .copy, .footer-claim{
     font-size: $font-size-small;
     text-align: center;
+    @media all and(min-width:678px){
+        text-align: start;
+        padding: 0;
+    }
 }
 
 .copy{
@@ -37,4 +63,11 @@
 
 .heart{
     color: $color-orangeFruit;
+}
+
+.container-flex{
+    @media all and(min-width:678px){
+        display: flex;
+        align-items: flex-start;
+    }
 }
