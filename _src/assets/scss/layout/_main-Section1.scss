@@ -13,6 +13,12 @@
 .pre-title{
     color:$color-blueClear;
     font-size:$font-size-small;
+    @media all and (min-width:678px){
+        font-size: 14px;
+    }
+    @media all and (min-width:1280px){
+        font-size: 16px;
+    }  
 }
 
 .titleSection1{
@@ -20,9 +26,18 @@
     font-family: $font-family-secondary;
     color: $color-blackCricket;
     padding: 1px 0 15px;
+    @media all and (min-width:678px){
+        font-size: 26px;
+    }
+    @media all and (min-width:1280px){
+        font-size: 32px;
+    }
 }
 
 .p-section1{
     color: $color-greyRock;
     padding-bottom: 30px;
+    @media all and (min-width:678px){
+        font-size: 20px;
+    }
 }
