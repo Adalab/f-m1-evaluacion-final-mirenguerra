@@ -8,10 +8,20 @@
     font-family: $font-family-secondary;
     color: $color-blackCricket;
     padding-top: 30px;
+    @media all and (min-width:678px){
+        font-size: 26px;
+    }
+    @media all and (min-width:1280px){
+        font-size: 32px;
+        padding-top: 60px;
+    }
 }
 
 .section2-subtitle{
     font-family: $font-family-secondary;
+    @media all and (min-width:678px){
+        font-size: 24px;
+    }
 }
 .articles-container{
     display:inline-grid;
@@ -19,4 +29,20 @@
     grid-auto-rows: 1fr 1fr 1fr;
     grid-row-gap: 45px;
     padding: 45px 70px;
+    @media all and (min-width:678px){
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-column-gap: 27.7px;
+        padding: 45px 40px 60px 35.7px;
+    }
+    @media all and (min-width:1280px){
+        grid-column-gap: 30px;
+        padding: 45px 85px 60px 81.2px;
+    }
+}
+
+.p-section2{
+    @media all and (min-width:678px){
+        font-size: 20px;
+    }
 }

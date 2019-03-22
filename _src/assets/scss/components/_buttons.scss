@@ -1,15 +1,15 @@
 .burguer-btn{
-    height: 44px;
-    width: 44px;
-    background-color: $color-blueMed;
-    border: 2px solid $color-blueMed;
-    background-image: url('../images/ico-menu.svg');
-    background-repeat:no-repeat;
-    background-position:center;
-    position: absolute;
-    top:0;
-    left:0;
-    z-index: 30;
+  height: 44px;
+  width: 44px;
+  background-color: $color-blueMed;
+  border: 2px solid $color-blueMed;
+  background-image: url('../images/ico-menu.svg');
+  background-repeat:no-repeat;
+  background-position:center;
+  position: absolute;
+  top:0;
+  left:0;
+  z-index: 30;
 }
 
 .scrollDown-btn{
@@ -38,13 +38,14 @@
   }
 }
 @keyframes arrowDown {
-    from {
-        transform: translate(-50%) scale(1);
-    }
-    to {
-        transform: translate(-50%) scale(1.2);
-    }
+  from {
+    transform: translate(-50%) scale(1);
+  }
+  to {
+    transform: translate(-50%) scale(1.2);
+  }
 }
+
 .scrollUp-btn{
   width: 45px;
   height: 45px;
@@ -62,14 +63,13 @@
   animation-duration: 1s;
   animation-iteration-count: infinite;  
 }
-
 @keyframes arrowUp {
-      from {
-        opacity: 0;
-      }
-      to {
-        opacity: 1;
-      }   
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }   
 }
 
 .go-btn {
@@ -94,8 +94,6 @@
   }
 }
 
-
-
 .moreReasons-btn {
   width: 184px;
   height: 45px;
@@ -119,6 +117,5 @@
   }
   &:hover{
     background-color: $color-blueMed;
-  }
-  
+  } 
 } 
