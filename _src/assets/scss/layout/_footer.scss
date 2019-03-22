@@ -10,15 +10,27 @@
     text-align: center;
     @media all and (min-width:678px){
         display:flex;
-        justify-content: space-around;
+        justify-content: space-between;
         order:2;   
+        text-align: left;
     }
 }
 
 .footer-menu__list{
     padding:60px 0 30px;  
     @media all and (min-width:678px){
-        padding: 0;        
+        padding: 0;
+    }
+}
+
+.footer-element{
+    @media all and (min-width:678px){
+        width:210px;
+        text-align: left;
+    }
+    @media all and (min-width:1280px){
+        width:160px;
+        text-align: left;
     }
 }
 
@@ -27,9 +39,6 @@
     text-decoration: none;
     text-transform: uppercase;
     font-size: $font-size-small;
-    @media all and (min-width:678px){
-        
-    }
 }
 
 .copy, .footer-claim{
@@ -57,6 +66,10 @@
     @media all and(min-width:678px){
         display: flex;
         align-items: flex-start;
-        justify-content: space-evenly;
+        justify-content: space-around;
+        padding:45px 39px;
+    }
+    @media all and(min-width:1280px){
+        padding:45px 370px;
     }
 }
