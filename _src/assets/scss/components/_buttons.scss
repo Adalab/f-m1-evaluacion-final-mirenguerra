@@ -29,8 +29,7 @@
           animation-name: arrow;
           animation-duration: 1s;
           animation-iteration-count: infinite;
-        }
-       
+        }     
 }
   @keyframes arrow {
     from {
@@ -40,7 +39,25 @@
         transform: translate(-50%) scale(1.2);
     }
 }
-
+.scrollUp-btn{
+  width: 45px;
+  height: 45px;
+  background-color: $color-whiteSnow;
+  border: 2px solid $color-whiteSnow;
+  border-radius: 50%;
+  background-image:url('../images/ico-arrow.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -22.5px;
+  left: 50%;
+  transform: translate(-50%);
+        &:hover{
+        animation-name: arrow;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+      }     
+}
 
 .go-btn {
     width: 76px;
