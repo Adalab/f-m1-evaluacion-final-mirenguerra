@@ -2,6 +2,12 @@
     font-family: $font-family-primary;
     color:$color-blackCricket;
     padding: 30px 15px 45px;
+    @media all and (min-width:678px){
+        padding: 30px 39px 60px;
+    }
+    @media all and (min-width:1280px){
+        padding: 60px 275px 60px;
+    }
 }
 
 .pre-title{
