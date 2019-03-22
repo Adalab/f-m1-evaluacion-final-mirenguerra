@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     // border: 1px solid green;
-    overflow-x: hidden;
 }
 
 ul {
@@ -17,4 +16,8 @@ body{
     font-family: $font-family-primary;
     font-size: $font-size-primary;
     line-height: 30px;
+}
+
+a{
+    text-decoration: none;
 }
