@@ -26,12 +26,12 @@
     left: 50%;
     transform: translate(-50%);
           &:hover{
-          animation-name: arrow;
+          animation-name: arrowDown;
           animation-duration: 1s;
           animation-iteration-count: infinite;
         }     
 }
-  @keyframes arrow {
+  @keyframes arrowDown {
     from {
         transform: translate(-50%) scale(1);
     }
@@ -51,12 +51,7 @@
   position: absolute;
   top: -22.5px;
   left: 50%;
-  transform: translate(-50%);
-        &:hover{
-        animation-name: arrow;
-        animation-duration: 1s;
-        animation-iteration-count: infinite;
-      }     
+  transform: translate(-50%);   
 }
 
 .go-btn {
@@ -72,6 +67,8 @@
     display: inline-block;
     font-size: 20px;
       &__link{
+        width: 76px;
+        height: 45px; 
        text-decoration: none;
        color: inherit;
      }
