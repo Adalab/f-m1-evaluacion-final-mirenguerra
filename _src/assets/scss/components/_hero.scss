@@ -5,6 +5,9 @@
     min-height: 100vh;
     margin: 0;
     position: relative;
+    font-family: $font-family-secondary;
+    color: $color-whiteSnow;
+    text-align: center;
 }
 
 .align-titles{
@@ -12,12 +15,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%,0);
-}
-
-.title{
-    font-family: $font-family-secondary;
-    color: $color-whiteSnow;
-    text-align: center;
+    height: 100vh;
 }
 
 .hero-title{
@@ -25,11 +23,23 @@
     text-transform: uppercase;
     line-height: 55px;
     padding-bottom: 10px;
+    @media all and (min-width:678px){
+        font-size: 80px;
+        line-height: 106px;
+        padding-bottom: 20px;
+    }
+    @media all and (min-width:1280px){
+        font-size: 100px;
+        line-height: 132px;
+        padding-bottom: 0px;
+    }
 }
 
 .hero-subtitle{
     font-family: $font-family-primary;
     font-size: $font-size-secondary;
     font-weight: 500;
-
+    @media all and (min-width:678px){
+        font-size: 24px;
+    }
 }
