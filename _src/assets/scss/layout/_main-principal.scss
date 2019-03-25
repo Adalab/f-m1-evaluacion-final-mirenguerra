@@ -1,4 +1,4 @@
-.main-Section1{
+.main-principal{
     font-family: $font-family-primary;
     color:$color-blackCricket;
     padding: 30px 15px 45px;
@@ -21,7 +21,7 @@
     }  
 }
 
-.titleSection1{
+.titlePrincipal{
     font-size: $font-size-subtitle;
     font-family: $font-family-secondary;
     color: $color-blackCricket;
@@ -34,7 +34,7 @@
     }
 }
 
-.p-section1{
+.p-principal{
     color: $color-greyRock;
     padding-bottom: 30px;
     @media all and (min-width:678px){

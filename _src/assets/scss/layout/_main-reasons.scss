@@ -1,9 +1,9 @@
-.main-Section2{
+.main-reasons{
     background-color: $color-blueSky;
     text-align: center;   
 }
 
-.titleSection2{
+.titleReasons{
     font-size: $font-size-subtitle;
     font-family: $font-family-secondary;
     color: $color-blackCricket;
@@ -17,12 +17,13 @@
     }
 }
 
-.section2-subtitle{
+.reasons-subtitle{
     font-family: $font-family-secondary;
     @media all and (min-width:678px){
         font-size: 24px;
     }
 }
+
 .articles-container{
     display:inline-grid;
     grid-template-columns: 1fr;
@@ -41,7 +42,7 @@
     }
 }
 
-.p-section2{
+.p-reasons{
     @media all and (min-width:678px){
         font-size: 20px;
     }
