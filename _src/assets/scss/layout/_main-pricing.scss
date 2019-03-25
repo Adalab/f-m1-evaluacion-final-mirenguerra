@@ -1,0 +1,20 @@
+.main-pricing{
+    background-color: $color-blueDark;
+    color: $color-whiteSnow;
+    text-align: center;
+    padding: 30px 15px 45px;
+}
+
+.plans{
+    @media all and (min-width:768px){
+     display: flex;
+     justify-content: center;
+    }
+}
+
+.princing-subtitle{
+    @media all and (min-width:768px){
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+}
