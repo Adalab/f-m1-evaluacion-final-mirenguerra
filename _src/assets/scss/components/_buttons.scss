@@ -74,20 +74,19 @@
 
 .go-btn {
   width: 76px;
-  height: 45px;
   font-size: 20px;
   color: $color-orangeFruit;
   background-color: $color-whiteSnow;
   border: 2px solid $color-orangeFruit;
   border-radius: 25px;
-  text-align: center;    
+  text-align: center;
   transition-property: color, border;
   transition-duration: 2s;
   transition-timing-function: ease;
   &__link{
     text-decoration: none;
     color: inherit;
-    }
+  }
   &:hover{
     color: $color-blueMed;
     border: 2px solid $color-blueMed;
@@ -102,18 +101,14 @@
 
 .moreReasons-btn {
   width: 184px;
-  height: 45px;
-  color: $color-whiteSnow;
   font-size: 20px;
+  font-weight: 700;
+  color: $color-whiteSnow;
   background-color: $color-orangeFruit;
   border: 2px solid transparent;
   border-radius: 25px;
-  color: $color-whiteSnow;
-  font-weight: 700;
-  background-position:center;
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
+  margin: auto;
   transition-property: background-color;
   transition-duration: 2s;
   transition-timing-function: ease; 
